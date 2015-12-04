@@ -1,0 +1,16 @@
+We have utilized 2 main debugging tools that do not come standard to 
+python. 
+(1) pdb 
+	we utilize this tool by setting traces throughout the program
+	to understand any errors that occured.
+	After following the stack trace it allows us to quickly find the
+	bug/error in our program
+	We set breakpoints and single stepping at the source line level, 
+	inspection of stack frames, source code listing, and evaluation of
+	arbitrary Python code in the context of any stack frame
+
+(2) Django Debug Toolbar
+	Is a nother tool that does not come standard but we found that 
+	it helps with understanding why our pages report errors. The common
+	response that we find are detailed response/request when clicking
+	though the website
